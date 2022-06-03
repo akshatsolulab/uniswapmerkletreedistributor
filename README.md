@@ -28,8 +28,7 @@ In addresses.json enter the address that you wish to whitelist .
 
 then run
 
-```
-ts-node scripts/generate-merkle-root.ts --input scripts/addresses.json```
+```ts-node scripts/generate-merkle-root.ts --input scripts/addresses.json```
 
 After successful Execution the formatted output as mentioned in the (/src/parse-balance-map.ts) will be saved in scripts/merkleroot.json
 
